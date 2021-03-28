@@ -8,7 +8,7 @@ import WhyButterfly from 'components/WhyButterfly'
 import Divider from 'components/Divider'
 import ServiceSection from 'components/ServiceSection'
 import Testimonials from 'components/Testimonials'
-import ClassesSection from 'components/ClassesSection'
+import UniqueExperience from 'components/UniqueExperience'
 
 function Home() {
   const [bannerOpen, setBannerOpen] = useState(true)
@@ -28,9 +28,9 @@ function Home() {
         <Hero />
         <WhyButterfly />
         <Testimonials />
+        <UniqueExperience />
         <ServiceSection />
         <Divider />
-        <ClassesSection />
       </PageLayout>
     </>
   )
