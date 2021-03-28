@@ -4,11 +4,12 @@ module.exports = {
   purge: ['./pages/**/*.js', './components/**/*.js'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily: {
+      sans: ['Lato', 'Inter var', ...defaultTheme.fontFamily.sans],
+      // serif: ['PlayFair Display'],
+      cursive: ['Dancing Script'],
+    },
     extend: {
-      fontFamily: {
-        sans: ['Lato', 'Inter var', ...defaultTheme.fontFamily.sans],
-        serif: ['PlayFair Display'],
-      },
       colors: {
         primary: {
           lightest: '#bdd6e8',
@@ -55,5 +56,8 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }
