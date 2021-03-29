@@ -65,10 +65,7 @@ function WhyButterfly() {
               about the change you see and feel in yourself and your life.
             </p>
             <p className="mb-8  text-gray-500 text-lg">
-              -- Valerie Remhoff, Butterfly Holistics She is an experienced
-              kinesiologist, Reiki master teacher, IKC Certified Touch for
-              Health instructor/consultant, author, and speaker. She is also an
-              NCBTMB approved continuing education provider.
+              -- Valerie Remhoff, Butterfly Holistics
             </p>
 
             <div className="flex justify-center">

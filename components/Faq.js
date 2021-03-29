@@ -9,7 +9,7 @@ function Faq({ id, question, answer }) {
           {/* Expand/collapse question button */}
           <button
             type="button"
-            className="text-left w-full flex justify-between items-start text-gray-400"
+            className="text-left w-full flex justify-between items-start text-gray-400 focus:outline-none"
             aria-controls={`faq-${id}`}
             aria-expanded={isOpen}
             onClick={() => {
@@ -18,13 +18,6 @@ function Faq({ id, question, answer }) {
           >
             <span className="font-medium text-gray-900">{question}</span>
             <span className="ml-6 h-7 flex items-center">
-              {/*
-                      Expand/collapse icon, toggle classes based on question open state.
-    
-                      Heroicon name: outline/chevron-down
-    
-                      Open: "-rotate-180", Closed: "rotate-0"
-                    */}
               <svg
                 className={`h-6 w-6 transform ${
                   isOpen ? '-rotate-180' : 'rotate-0'
