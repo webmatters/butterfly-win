@@ -12,7 +12,7 @@
       rgba(0, 143, 203, 0.5),
       rgba(0, 143, 203, 0.5) */
     ),
-    url('/butterfly-hero.jpg');
+    url("/valerie-hero-2.jpg");
 }
 
 @media screen and (max-width: 600px) {
@@ -25,7 +25,7 @@
           /* rgba(0, 143, 203, 0.6),
         rgba(0, 143, 203, 0.6) */
       ),
-      url('/butterfly-hero-mobile.jpg');
+      url("/butterfly-hero-mobile.jpg");
     background-position: 25% 55%;
   }
 }

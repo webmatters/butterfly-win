@@ -29,8 +29,8 @@ function Home() {
         <WhyButterfly />
         <Testimonials />
         <UniqueExperience />
-        <ServiceSection />
         <Divider />
+        <ServiceSection />
       </PageLayout>
     </>
   )
