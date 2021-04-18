@@ -64,7 +64,7 @@ function Footer() {
                 href="https://mailchi.mp/0feb14b51109/subscribe"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-secondary border border-transparent rounded-full px-8 py-2 text-base font-medium text-white hover:secondary "
+                className="bg-primary border border-transparent rounded-full px-8 py-2 text-base font-medium text-white hover:secondary "
               >
                 <span className="leading-none">Subscribe</span>
               </a>

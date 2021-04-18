@@ -27,9 +27,9 @@ function About() {
           <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen"></div>
           <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
             <div>
-              <h2 className="text-base text-secondary font-semibold tracking-wide uppercase">
+              {/* <h2 className="text-base text-secondary font-semibold tracking-wide uppercase">
                 About Us
-              </h2>
+              </h2> */}
               <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
                 Welcome to Butterfly Holistics
               </h3>
@@ -75,8 +75,8 @@ function About() {
                   <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
                     <img
                       className="rounded-lg shadow-lg object-cover object-center"
-                      src="https://images.unsplash.com/photo-1546913199-55e06682967e?ixlib=rb-1.2.1&auto=format&fit=crop&crop=focalpoint&fp-x=.735&fp-y=.55&w=1184&h=1376&q=80"
-                      alt="Whitney leaning against a railing on a downtown street"
+                      src="butterfly-about.jpg"
+                      alt="Valerie Remhoff at the butterfly house."
                       width="1184"
                       height="1376"
                     />
@@ -96,14 +96,14 @@ function About() {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className="ml-2">Photograph by Marcus O’Leary</span>
+                    <span className="ml-2">Photograph by Valerie's Photographer</span>
                   </figcaption>
                 </figure>
               </div>
             </div>
             <div className="mt-8 lg:mt-0">
-              <div className="text-base max-w-prose mx-auto lg:max-w-none">
-                <p className="text-lg text-gray-500">
+              <div className="text-base prose mx-auto lg:max-w-none">
+                <p className="text-gray-500">
                   I’m Valerie Remhoff, Kinesiologist, IKC certified Touch for
                   Health instructor/consultant, Reiki master teacher, author and
                   educator. All of those titles aside, most people would simply
@@ -152,27 +152,29 @@ function About() {
                   to serve my community and beyond, with in-person and virtual
                   healing sessions as well as classes in energy healing methods.
                 </p>
-                <h3>My Credentials</h3>
-                <p>
-                  Over the years, my training has included courses in Reiki,
-                  Touch for Health (TFH), Health Kinesiology (now Natural
-                  Bioenergetics), Energy Medicine, the Professional Kinesiology
-                  Practitioner Program (PKP), Inner Clarity and many other
-                  techniques and systems including chakra balancing and crystal
-                  healing. I am a Reiki Master Teacher and an IKC Certified
-                  Touch for Health instructor and consultant. I am also an
-                  NCBTMB approved continuing education provider. In 2015, I
-                  published the book Dynamic Healing: A Practitioner’s Guide to
-                  Reiki Applications with my co-author Marina Lando. I have
-                  developed many classes and programs to help people learn more
-                  about energy healing and ways to heal themselves.
-                </p>
                 <p>
                   The work I do changes lives, and I want to share my gifts with
                   as many people as possible. When you open your heart and mind
                   to the healing abilities of the body, you can truly work
                   miracles.
                 </p>
+                <h3>My Credentials</h3>
+                <p>
+                  I began my studies in 2004 and have trained in Reiki,
+                  Touch for Health (TFH), Health Kinesiology (now Natural
+                  Bioenergetics), Energy Medicine, the Professional Kinesiology
+                  Practitioner Program (PKP), Inner Clarity and many other
+                  techniques and systems including chakra balancing and crystal
+                  healing. I am a Reiki Master Teacher and an IKC Certified
+                  Touch for Health instructor and consultant. I am also a
+                  National Certification Board for Therapeutic Massage and Bodywork (NCBTMB) approved continuing education provider. In 2015, I
+                  published the book Dynamic Healing: A Practitioner’s Guide to
+                  Reiki Applications with my co-author Marina Lando. I have
+                  developed many classes and programs to help people learn more
+                  about energy healing and ways to heal themselves.
+                </p>
+                <img src="ncbtmb-logo.jpg" />
+                <img src="dynamic-healing-book.jpg" />
               </div>
             </div>
           </div>

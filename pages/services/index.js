@@ -12,7 +12,7 @@ function services() {
 
   return (
     <PageLayout>
-      <PageHeader title={title} subtitle={subtitle} intro={intro} />
+      {/* <PageHeader title={title} subtitle={subtitle} intro={intro} /> */}
       <Faqs />
     </PageLayout>
   )

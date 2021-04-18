@@ -45,7 +45,6 @@ function ServiceSection(props) {
 
                     <p className="text-xl font-semibold text-gray-900">{feature.title}</p>
                     <p className="mt-3 text-base text-gray-500">{feature.content}</p>
-
                 </div>
                 {/* <div className="mt-6 flex items-center">
                   <div className="flex-shrink-0">
@@ -140,7 +139,7 @@ function ServiceSection(props) {
           </div>
         </div> */}
 
-        <div className="flex justify-center mt-10">
+        <div className="flex justify-center mt-16">
           <Link href="/services">
             <a className="px-8 py-2 border border-transparent text-base font-medium rounded-full text-white bg-primary md:py-3 md:text-lg md:px-10 btn">
               Learn More
