@@ -1,17 +1,17 @@
-import React from 'react'
+import React from "react"
 
-import PageLayout from 'components/PageLayout'
-import PageHeader from 'components/PageHeader'
+import PageLayout from "components/layout/PageLayout"
+import PageHeader from "components/shared/PageHeader"
 
 function Contact() {
-  const title = 'Contact'
-  const subtitle = "We'd Love to Hear from You"
+  const title = "Contact"
+  const subtitle = "We Would Love to Hear from You"
   const intro =
     "You can use the links above to directly schedule an appointment or enroll in a class. If you'd like to receive articles and updates from us, subscribe to our newsletter below. If you have any questions, feel free to contact us using any of the channels below."
 
   return (
     <PageLayout>
-      <PageHeader title={title} subtitle={subtitle} intro={intro} />
+      <PageHeader subtitle={subtitle} intro={intro} />
       <div className="bg-white">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
           <div className="divide-y-2 divide-gray-200">

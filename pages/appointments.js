@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react"
 
-import PageLayout from 'components/PageLayout'
-import PageHeader from 'components/PageHeader'
+import PageLayout from "components/layout/PageLayout"
+import PageHeader from "components/shared/PageHeader"
 
 function Appointments() {
-  const title = 'Appointments'
-  const subtitle = 'Schedule Your Next Appointment'
+  const title = "Appointments"
+  const subtitle = "Schedule Your Next Appointment"
   const intro =
     "Scheduling an appointment is as easy as selecting an available date and time below. You'll receive a confirmation and a handy reminder the day before your appointment."
   return (

@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react"
 
-import PageLayout from 'components/PageLayout'
+import PageLayout from "components/layout/PageLayout"
 
 function TouchForHealth(props) {
   return (
@@ -128,12 +128,12 @@ function TouchForHealth(props) {
           </div>
           <div className="mt-6 prose prose-blue prose-lg text-gray-500 mx-auto">
             <p>
-              Faucibus commodo massa rhoncus, volutpat.{' '}
+              Faucibus commodo massa rhoncus, volutpat.{" "}
               <strong>Dignissim</strong> sed <strong>eget risus enim</strong>.
               Mattis mauris semper sed amet vitae sed turpis id. Id dolor
               praesent donec est. Odio penatibus risus viverra tellus varius sit
               neque erat velit. Faucibus commodo massa rhoncus, volutpat.
-              Dignissim sed eget risus enim.{' '}
+              Dignissim sed eget risus enim.{" "}
               <a href="/">Mattis mauris semper</a> sed amet vitae sed turpis id.
             </p>
             <ul>

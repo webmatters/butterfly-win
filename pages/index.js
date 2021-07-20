@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import Head from 'next/head'
+import { useState } from "react"
+import Head from "next/head"
 
-import PageLayout from 'components/PageLayout'
-import CovidBanner from 'components/CovidBanner'
-import Hero from 'components/Hero'
-import WhyButterfly from 'components/WhyButterfly'
-import Divider from 'components/Divider'
-import ServiceSection from 'components/ServiceSection'
-import Testimonials from 'components/Testimonials'
-import UniqueExperience from 'components/UniqueExperience'
+import PageLayout from "components/layout/PageLayout"
+import CovidBanner from "components/CovidBanner"
+import Hero from "components/Hero"
+import WhyButterfly from "components/WhyButterfly"
+import Divider from "components/shared/Divider"
+import ServiceSection from "components/ServiceSection"
+import Testimonials from "components/testimonials/Testimonials"
+import UniqueExperience from "components/UniqueExperience"
 
 function Home() {
   const [bannerOpen, setBannerOpen] = useState(true)
