@@ -2,6 +2,7 @@
   transform: scale(0.98);
 }
 
+/* TODO - Delete .hero-image class if not still using */
 .hero-image {
   height: 650px;
   background-image: linear-gradient(

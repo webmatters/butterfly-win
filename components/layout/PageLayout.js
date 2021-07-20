@@ -1,7 +1,7 @@
-import Head from 'next/head'
+import Head from "next/head"
 
-import Navbar from 'components/Navbar'
-import Footer from 'components/Footer'
+import Navbar from "components/layout/Navbar"
+import Footer from "components/layout/Footer"
 
 function PageLayout({ children }) {
   return (
@@ -16,10 +16,6 @@ function PageLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         ></link>
-        {/* <link
-          href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
-          rel="stylesheet"
-        ></link> */}
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -27,7 +23,7 @@ function PageLayout({ children }) {
         className="min-h-screen"
         style={{
           backgroundImage:
-            'linear-gradient(to bottom, rgb(2, 99, 146), rgb(189, 214, 232), rgb(2, 99, 146))',
+            "linear-gradient(to bottom, rgb(2, 99, 146), rgb(189, 214, 232), rgb(2, 99, 146))",
         }}
       >
         <div className="max-w-7xl mx-auto bg-white">

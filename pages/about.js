@@ -1,75 +1,18 @@
-import React from 'react'
+import React from "react"
 
-import PageLayout from 'components/PageLayout'
+import PageLayout from "components/layout/PageLayout"
 
 function About() {
   return (
     <PageLayout>
-      {/*
-      This example requires Tailwind CSS v2.0+ 
-      
-      This example requires some changes to your config:
-      
-      ```
-      // tailwind.config.js
-      module.exports = {
-        // ...
-        plugins: [
-          // ...
-          require('@tailwindcss/typography'),
-          require('@tailwindcss/aspect-ratio'),
-        ]
-      }
-      ```
-    */}
       <div className="bg-white overflow-hidden">
         <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-          <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen"></div>
-          <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
-            <div>
-              {/* <h2 className="text-base text-secondary font-semibold tracking-wide uppercase">
-                About Us
-              </h2> */}
-              <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                Welcome to Butterfly Holistics
-              </h3>
-            </div>
-          </div>
+          <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            Welcome to Butterfly Holistics
+          </h3>
           <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
+            {/* Photo grid column */}
             <div className="relative lg:row-start-1 lg:col-start-2">
-              <svg
-                className="hidden lg:block absolute top-0 right-0 -mt-20 -mr-20"
-                width="404"
-                height="384"
-                fill="none"
-                viewBox="0 0 404 384"
-                aria-hidden="true"
-              >
-                <defs>
-                  <pattern
-                    id="de316486-4a29-4312-bdfc-fbce2132a2c1"
-                    x="0"
-                    y="0"
-                    width="20"
-                    height="20"
-                    patternUnits="userSpaceOnUse"
-                  >
-                    <rect
-                      x="0"
-                      y="0"
-                      width="4"
-                      height="4"
-                      className="text-gray-200"
-                      fill="currentColor"
-                    />
-                  </pattern>
-                </defs>
-                <rect
-                  width="404"
-                  height="384"
-                  fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)"
-                />
-              </svg>
               <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
                 <figure>
                   <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
@@ -96,7 +39,9 @@ function About() {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className="ml-2">Photograph by Valerie's Photographer</span>
+                    <span className="ml-2">
+                      Photograph by Valerie's Photographer
+                    </span>
                   </figcaption>
                 </figure>
               </div>
@@ -160,18 +105,19 @@ function About() {
                 </p>
                 <h3>My Credentials</h3>
                 <p>
-                  I began my studies in 2004 and have trained in Reiki,
-                  Touch for Health (TFH), Health Kinesiology (now Natural
+                  I began my studies in 2004 and have trained in Reiki, Touch
+                  for Health (TFH), Health Kinesiology (now Natural
                   Bioenergetics), Energy Medicine, the Professional Kinesiology
                   Practitioner Program (PKP), Inner Clarity and many other
                   techniques and systems including chakra balancing and crystal
                   healing. I am a Reiki Master Teacher and an IKC Certified
                   Touch for Health instructor and consultant. I am also a
-                  National Certification Board for Therapeutic Massage and Bodywork (NCBTMB) approved continuing education provider. In 2015, I
-                  published the book Dynamic Healing: A Practitioner’s Guide to
-                  Reiki Applications with my co-author Marina Lando. I have
-                  developed many classes and programs to help people learn more
-                  about energy healing and ways to heal themselves.
+                  National Certification Board for Therapeutic Massage and
+                  Bodywork (NCBTMB) approved continuing education provider. In
+                  2015, I published the book Dynamic Healing: A Practitioner’s
+                  Guide to Reiki Applications with my co-author Marina Lando. I
+                  have developed many classes and programs to help people learn
+                  more about energy healing and ways to heal themselves.
                 </p>
                 <img src="ncbtmb-logo.jpg" />
                 <img src="dynamic-healing-book.jpg" />

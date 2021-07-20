@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react"
 
-import PageLayout from 'components/PageLayout'
-import PageHeader from 'components/PageHeader'
+import PageLayout from "components/layout/PageLayout"
+import PageHeader from "components/shared/PageHeader"
 
 function store() {
   return (
