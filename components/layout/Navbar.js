@@ -1,21 +1,21 @@
-import { useState } from 'react'
-import Link from 'next/link'
-import { Transition } from '@headlessui/react'
+import { useState } from "react"
+import Link from "next/link"
+import { Transition } from "@headlessui/react"
 
 function Navbar() {
   const [navOpen, setNavOpen] = useState(false)
 
   const navLinks = [
-    { id: '1', path: '/services', name: 'FAQs' },
-    { id: '2', path: '/appointments', name: 'Appointments' },
-    { id: '3', path: '/classes', name: 'Classes' },
-    { id: '4', path: '/about', name: 'About' },
-    { id: '5', path: '/resources', name: 'Resources' },
-    { id: '6', path: '/contact', name: 'Contact' },
+    { id: "1", path: "/faqs", name: "FAQs" },
+    { id: "2", path: "/appointments", name: "Appointments" },
+    { id: "3", path: "/classes", name: "Classes" },
+    { id: "4", path: "/about", name: "About" },
+    { id: "5", path: "/resources", name: "Resources" },
+    { id: "6", path: "/contact", name: "Contact" },
   ]
 
   const renderLinks = () => {
-    return navLinks.map(navLink => (
+    return navLinks.map((navLink) => (
       <Link href={navLink.path} key={navLink.id}>
         <a className="border-transparent text-gray-500 hover:text-primary-light transform hover:scale-105 whitespace-nowrap py-1 px-1 border-b-2 font-medium text-sm lg:text-lg">
           {navLink.name}
@@ -25,7 +25,7 @@ function Navbar() {
   }
 
   const renderMobileLinks = () => {
-    return navLinks.map(navLink => (
+    return navLinks.map((navLink) => (
       <Link href={navLink.path} key={navLink.id}>
         <span className="border-t border-gray-100 pt-2">
           <a className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
