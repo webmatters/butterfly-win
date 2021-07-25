@@ -114,13 +114,16 @@ function About() {
                   Touch for Health instructor and consultant. I am also a
                   National Certification Board for Therapeutic Massage and
                   Bodywork (NCBTMB) approved continuing education provider. In
-                  2015, I published the book Dynamic Healing: A Practitioner’s
-                  Guide to Reiki Applications with my co-author Marina Lando. I
-                  have developed many classes and programs to help people learn
-                  more about energy healing and ways to heal themselves.
+                  2015, I published the book{" "}
+                  <a href="https://www.balboapress.com/en/bookstore/bookdetails/521640-Dynamic-Healing">
+                    Dynamic Healing: A Practitioner’s Guide to Reiki
+                    Applications
+                  </a>{" "}
+                  with my co-author Marina Lando. I have developed many classes
+                  and programs to help people learn more about energy healin
+                  gand ways to heal themselves.
                 </p>
-                <img src="ncbtmb-logo.jpg" />
-                <img src="dynamic-healing-book.jpg" />
+                <img src="ncbtmb-logo.jpg" className="w-32" />
               </div>
             </div>
           </div>
